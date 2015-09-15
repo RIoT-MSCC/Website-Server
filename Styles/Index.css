@@ -1,0 +1,87 @@
+#Heading{
+	background-image: url('/Images/background.jpg');
+	height: 580px;
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	/* Border given to put image below */
+	border-top: 100px solid #000000;
+	padding: 50px 5px 50px 5px;
+}
+
+#Heading p#para1{
+    background-color: rgba(0,0,0,0.4);
+}
+
+#Heading p{
+	font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+	font-size: 1.8em;
+	color: #E5E5E5;
+	padding: 20px 5px 80px 5px;
+}
+
+#Heading p#signup{
+	font-size: 1.6em;
+	padding: 40px 5px 0px 5px;
+}
+
+#Desc1{
+	background-color: #E5E5E5;
+	height: 500px;
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	padding-top: 50px;
+	border-top: 50px solid #ABC;
+}
+
+p#Desc_Head{
+	font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+	font-size: 1.8em;
+	color: #000000;
+	padding: 0px 5px 30px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+p#Desc_content{
+	font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+	font-size: 1em;
+	color: #333333;
+	padding: 20px 5px 0px 5px;
+}
+
+#Desc2{
+	background-color: #FFFFFF;
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	padding-top: 50px;
+	border-top: 50px solid #ABC;
+}
+
+a#button{
+    text-align: center;
+    cursor:pointer;
+	font-size:20px;
+	font-weight:600;
+	line-height:16px;
+    padding: 7px 18px;
+    font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+	border:none;
+	background-color:#00bcf2;
+	color:#000;
+	min-width:400px;
+	margin:0 0 0 0;
+    text-decoration: none;
+}
+
+a#button:hover {
+    background-color: #000;
+    color: #00bcf2;
+}
+
+a#button:focus {
+    outline:1px dotted #000;
+	border:none;
+}

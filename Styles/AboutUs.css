@@ -1,0 +1,55 @@
+#Abt_us{
+    padding-top: 150px;
+    height: 900px;
+    width: 100%;
+    background-image: url('/Images/background.jpg');
+    background-size: cover;
+    font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+	font-size: 1.8em;
+    color: #fff;
+}
+
+#img-circular{
+    padding: 0px 0px 0px 0px;
+    border-radius:50% 50% 50% 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #ABC;
+    background-size: cover;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+.photos{
+    padding-top: 0px;
+    width: 100%;
+}
+
+#names{
+    width: 230px;
+    float:  left;
+    margin: 0% 3% 0% 4%;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+#Head{
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px 0px 20px 0px;
+}
+
+
+
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 850px) {
+	#Abt_us{
+        height: 1500px;
+    }
+
+    #names{
+        margin: 0% 0% 0% 17.5%;
+    }
+}

@@ -1,0 +1,203 @@
+#main {
+    clear: both;
+    overflow:auto;
+	padding: 120px 0px 50px;
+    height: fit-content;
+    min-height: 550px;
+    width: 100%;
+    background-image: url('/Images/background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.settings span{
+    float: right;
+    font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-right: 10%;
+    color: #000000;
+}
+
+.settings img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.settings range{
+    width: 80%;
+    padding-top: 10px;
+    margin-top: 30%;
+}
+
+.settings{
+    margin: 10px 30% 10px 30%;
+    background-color: rgba(255,255,255,0.6);
+    height: 70px;
+}
+
+.visit{
+    font-size: 18pt;
+}
+
+a,a:visited,a:hover,a:focus{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.visit a:link, .visit a:visited,
+.visit a:active, .visit a:hover {
+    color: #4A91CE;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+}
+
+
+/* forms */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+    width: 40%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+    fieldset legend {
+        display: none;
+    }
+    
+    fieldset label {
+        display: block;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    input[type="submit"] {
+        text-align: center;
+        cursor:pointer;
+	    font-size:14px;
+	    font-weight:600;
+	    line-height:16px;
+        padding: 7px 18px;
+        font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+	    border:none;
+	    background-color:#00bcf2;
+	    color:#000;
+	    min-width:150px;
+	    margin:0 0 0 0;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #000;
+        color: #00bcf2;
+    }
+
+    input[type="submit"]:focus {
+        outline:1px dotted #000;
+	    border:none;
+    }
+
+/* ajax login/registration dialog */
+.modal-popup {
+    font-size: 0.7em;
+}
+
+/* info and errors */
+.message-info {
+    border: solid 1px;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.success {
+    color: #7ac0da;
+}
+
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Lock */
+input[type=checkbox] {
+    display:none;
+}
+ 
+input[type=checkbox] + label
+{
+    background: url("/Images/unlock.png") no-repeat;
+    background-size: 50%;
+    height: 60px;
+    width: 60px;
+    display:inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+input[type=checkbox]:checked + label
+{
+    background: url("/Images/lock.png") no-repeat;
+    background-size: 50%;
+    height: 60px;
+    width: 60px;
+    display:inline-block;
+}
+
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 850px) {
+    /* forms */
+    fieldset{
+        width:100%;
+    }
+
+    .settings range{
+        width: 100%;
+    }
+
+    .settings{
+        margin: 10px 5px 10px 5px;
+}
+}

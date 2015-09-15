@@ -1,0 +1,281 @@
+#main {
+    clear: both;
+    overflow:auto;
+	padding: 120px 0px 50px;
+    height: 70%;
+    width: 100%;
+    background-image: url('/Images/background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.visit{
+    font-size: 18pt;
+}
+
+a,a:visited,a:hover,a:focus{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #000;
+}
+
+.visit a:link, .visit a:visited,
+.visit a:active, .visit a:hover {
+    color: #4A91CE;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+}
+
+
+/* forms */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+    width: 40%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+    fieldset legend {
+        display: none;
+    }
+    
+    fieldset ol {
+        padding: 0;
+        list-style: none;
+    }
+
+        fieldset ol li {
+            padding-bottom: 5px;
+        }
+
+    fieldset label {
+        display: block;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    fieldset label.checkbox {
+        display: inline;
+    }
+
+    fieldset input[type="text"],
+    fieldset input[type="password"],
+    fieldset input[type="email"] {
+        border: 1px solid #e2e2e2;
+        color: #333;
+        font-size: 1.2em;
+        margin: 5px 0 6px 0;
+        padding: 5px;
+        width: 300px;
+    }
+
+        fieldset input[type="text"]:focus,
+        fieldset input[type="password"]:focus,
+        fieldset input[type="email"]:focus {
+            border: 1px solid #7ac0da;
+        }
+
+    fieldset input[type="submit"] {
+        text-align: center;
+        cursor:pointer;
+	    font-size:14px;
+	    font-weight:600;
+	    line-height:16px;
+        padding: 7px 18px;
+        font-family: "Segoe UI",Tahoma,Helvetica,sans-serif;
+	    border:none;
+	    background-color:#00bcf2;
+	    color:#000;
+	    min-width:150px;
+	    margin:0 10px 0 0;
+    }
+
+    fieldset input[type="submit"]:hover {
+        background-color: #000;
+        color: #00bcf2;
+    }
+
+    fieldset input[type="submit"]:focus {
+        outline:1px dotted #000;
+	    border:none;
+    }
+
+/* ajax login/registration dialog */
+.modal-popup {
+    font-size: 0.7em;
+}
+
+    .modal-popup input[type="text"],
+    .modal-popup input[type="password"] {
+        width: 90%;
+    }
+
+/* info and errors */
+.message-info {
+    border: solid 1px;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.success {
+    color: #7ac0da;
+}
+
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input[type="text"].input-validation-error,
+input[type="password"].input-validation-error {
+    border: solid 1px #e80c4d;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 850px) {
+    /* menu */
+    nav {
+        margin-bottom: 5px;
+    }
+
+    ul#menu {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      
+    }
+
+        ul#menu li {
+            margin: 0;
+            padding: 0;
+            padding-right: 12px
+        }
+
+
+    /* main layout
+    ----------------------------------------------------------*/
+    .main-content,
+    .featured + .main-content {
+        background-position: 10px 0;
+    }
+
+    .content-wrapper {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .featured .content-wrapper {
+        padding: 10px;
+    }
+
+    /* page content */
+    article, aside {
+        float: none;
+        width: 100%;
+    }
+
+    /* ordered list */
+    ol.round {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        ol.round li {
+            padding-left: 10px;
+            margin: 25px 0;
+        }
+
+            ol.round li.one,
+            ol.round li.two,
+            ol.round li.three, 
+        ol.round li.asterisk {
+                background: none;
+            }
+
+     /* features */
+     section.feature {
+        float: none;
+        padding: 10px;
+        width: auto;
+     }
+
+        section.feature img {
+            color: #999;
+            content: attr(alt);
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+    /* forms */
+    fieldset{
+        width:100%;
+    }
+
+    fieldset input[type="text"],
+    fieldset input[type="password"],
+    fieldset input[type="email"], {
+        width: 70%;
+    }
+
+    /* login page */
+    #loginForm {
+        border-right: none;
+        float: none;
+        width: auto;
+    }
+
+        #loginForm .validation-error {
+            display: block;
+            margin-left: 15px;
+        }
+
+    #socialLoginForm {
+        margin-left: 0;
+        float: none;
+        width: auto;
+    }
+}

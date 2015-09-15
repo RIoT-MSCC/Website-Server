@@ -1,0 +1,24 @@
+TODO:
+
+comment and documentation
+check_errors
+
+dynamic page title
+default error page
+registration success
+
+
+................
+css
+
+Align 'env sign out' and 'env sign in'
+slider new
+mobile screen display adjustment
+
+................
+Appliances to demonstrate:
+
+Fan
+Light(LED + normal+ bulb)
+Table lamp
+Thermostat(AC/heater)

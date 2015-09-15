@@ -1,0 +1,249 @@
+.site-title {
+    color: #c8c8c8;
+    font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
+    font-size: 2.0em;
+    margin: 10px 0;
+}
+
+#small {
+    font-size: 0.7em;
+}
+
+.site-title a, .site-title a:hover, .site-title a:active {
+    background: none;
+    color: #c8c8c8;
+    outline: none;
+    text-decoration: none;
+}
+
+#ux-header{
+	min-width:70%;
+	width:100%;
+	font-size:1.077em;
+	position:fixed;
+	top:0;
+}
+
+body{
+	margin:0px;
+}
+
+body.Chrome #ux-header{
+	-webkit-transform:translateZ(0);
+}
+
+#ux-header a{
+	color:#fff;
+	text-decoration:none;
+}
+
+#ux-header ul{
+	margin-bottom:0;
+}
+
+#ux-header li{
+	margin:0;
+}
+
+#ux-header ul.dev-navigation a:focus{
+	outline:dotted 1px #fff;
+}
+
+#ux-header div.upperBandContent .left{
+	float:left;
+	padding:16px 0 20px 0;
+	height:28px;
+}
+
+#ux-header div.upperBandContent .right{
+	float:right;
+	padding:24px 43px 0 0;
+	position:relative;
+}
+
+#ux-header .right a{
+	font-family:'Segoe UI Semibold','Segoe UI',Tahoma,Helvetica,Sans-Serif;
+	font-size:.93em;
+	padding-top:1px;
+    padding-left: 2em;
+    padding-bottom: 3px;
+}
+
+#ux-header div.upperBand{
+	line-height:14px;
+	color:#fff;
+	height:68px;
+	background-color:#000;
+}
+
+#ux-header div.upperBandContent,#ux-header div.lowerBandContent{
+	width:100%;
+	max-width:1000px;
+	margin:0 auto;
+	padding:0 10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+#ux-header div.lowerBand{
+	line-height:18px;
+	color:#fff;
+	background-color:#333333;
+	height:34px;
+}
+
+#ux-header .dev-navigation{
+	float:left;
+	clear:left;
+	padding-right:10px;
+}
+
+#ux-header .dev-navigation li{
+	float:left;
+	list-style:none;
+	line-height:18px;
+}
+
+#ux-header ul.dev-navigation{
+	padding:0;
+	margin:0;
+}
+
+#ux-header .dev-navigation li a{
+	margin:0 24px 0 0;
+	display:block;
+	outline:none;
+}
+
+#ux-header .dev-navigation li a:hover,#ux-header .dev-navigation li a.current{
+	color:#00bcf2;
+	text-decoration:solid;
+}
+
+#ux-header ul.dev-navigation>li.nav-expander>a{
+	border-bottom:4px solid #333333;
+	margin:0 15px;
+	line-height:30px;
+	font-size:.92857em;
+}
+
+#ux-header ul.dev-navigation>li.nav-expander>a:hover,#ux-header ul.dev-navigation>li.nav-expander>a.current{
+	border-bottom:4px solid #00bcf2;
+}
+
+#ux-header ul.dev-navigation{
+	overflow:visible;
+	color:#fff;
+	margin:0;
+	position:relative;
+	margin-left:-15px;
+}
+
+#ux-header .dev-navigation a{
+	margin:0;
+	padding:0;
+}
+
+#Lowerband_right{
+	float: right;
+	padding:0px 22px 5px 0px;
+}
+
+#Lowerband_right a{
+    float: right;
+}
+
+#Settings{
+    float: right;
+    background-color: #00bcf2;
+    color: #fff;
+    padding: 0px 15px 0px 15px;
+}
+
+#Settings:hover{
+    background-color: #000;
+    color: #00bcf2;
+}
+
+#About{
+	background-color: #000000;
+	height: 10%;
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	color:#fff;
+	text-decoration:none;
+	font-family:'Segoe UI Semibold','Segoe UI',Tahoma,Helvetica,Sans-Serif;
+	font-size:.83em;
+	padding-top:1px;
+}
+
+.float-left{
+	float: left;
+	padding-left: 1em;
+}
+
+
+.float-right{
+	float: right;
+	padding-right: 1em;
+	padding-top: 1em;
+}
+
+.float-right a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 850px) {
+	.site-title {
+		color: #c8c8c8;
+		font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
+		font-size: 1.7em;
+		margin: 10px 0;
+	}
+
+    #ux-header ul.dev-navigation > li.nav-expander > a {
+        margin: 0 8px;
+    }
+
+    #Lowerband_right{
+	    padding:0px 0px 5px 0px;
+    }
+
+    #ux-header div.upperBandContent .right{
+	    float:right;
+	    padding:24px 0px 0 0;
+	    position:relative;
+    }
+
+    #ux-header .right a{
+        padding-left: 0.5em;
+    }
+
+	#small {
+		font-size: 0.7em;
+	}
+
+	#ux-header{
+		font-size:0.877em;
+	}
+
+    #About{
+	    height: 12%;
+    }
+
+    #Settings{
+        padding: 0px 5px 0px 5px;
+    }
+
+    #ux-header ul.dev-navigation>li.nav-expander>a{
+	    margin:0 5px;
+    }
+}
