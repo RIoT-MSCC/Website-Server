@@ -4,7 +4,7 @@
 
     if(!logged_on())
     {
-        header ("Location: /index.php");
+        header ("Location: /Home.php");
     }
 
     $dev = array("light_bulb","fan_ceil","fan_table","light_cfl","light_table");

@@ -3,7 +3,7 @@
 
     if(!logged_on() || !ENV_logged_on())
     {
-        header ("Location: /index.php");
+        header ("Location: /Home.php");
     }
 
     if (isset($_GET['Message'])){

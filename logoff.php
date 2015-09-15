@@ -43,5 +43,5 @@
     $_SESSION['ENV_OTP']=NULL;
     $_SESSION['ROOT']=NULL;
 
-	header ("Location: index.php");
+	header ("Location: Home.php");
 ?>

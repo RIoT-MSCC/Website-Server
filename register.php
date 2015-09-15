@@ -6,7 +6,7 @@
 
     if(logged_on())
     {
-        header ("Location: /index.php");
+        header ("Location: /Home.php");
     }
 
     if (isset($_POST['Register']))
@@ -88,7 +88,7 @@
 						$response = $sendgrid->send($emailto);           
             
                         $msg = "You have been successfully registered. Have a nice day.";
-                        header ("Location: /index.php?Message=".urlencode($msg));
+                        header ("Location: /Home.php?Message=".urlencode($msg));
                     }
                 }
                 else

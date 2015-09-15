@@ -7,7 +7,7 @@
 
     if(logged_on())
     {
-        header ("Location: /index.php");
+        header ("Location: /Home.php");
     }
 ?>
 

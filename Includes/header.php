@@ -24,7 +24,7 @@
 			<div class="upperBand">
 				<div class="upperBandContent">
 					<div class="left">
-						<a href="/index.php">
+						<a href="/Home.php">
 							<div class="site-title">
 								<b>RIoT</b><span id="small"> User Profiles</span>
 							</div>
@@ -69,13 +69,13 @@
 					<nav>
 						<ul class="dev-navigation">
 							<li class="nav-expander">
-								<a href="/index.php#Heading">Home</a>
+								<a href="/Home.php#Heading">Home</a>
 							</li>
 							<li class="nav-expander">
-								<a href="/index.php#Desc1">Device</a>
+								<a href="/Home.php#Desc1">Device</a>
 							</li>
 							<li class="nav-expander">
-								<a href="/index.php#Desc2">Preference</a>
+								<a href="/Home.php#Desc2">Preference</a>
 							</li>
 						</ul>
 					</nav>

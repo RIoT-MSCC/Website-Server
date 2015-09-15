@@ -6,7 +6,7 @@
 
     if(logged_on())
     {
-        header ("Location: /index.php");
+        header ("Location: /Home.php");
     }
 ?>
 
@@ -43,7 +43,7 @@
             $_SESSION['temp_user'] = NULL;
             $_SESSION['random_key'] = NULL;
 
-            header ("Location: index.php");
+            header ("Location: Home.php");
         }
     }
 ?>

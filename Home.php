@@ -3,7 +3,7 @@
 
     if (isset($_GET['Message'])){
         echo "<script>popup('".$_GET['Message']."')</script>";
-        header ("Refresh:2; url=/index.php");
+        header ("Refresh:2; url=/Home.php");
     }
 ?>
 

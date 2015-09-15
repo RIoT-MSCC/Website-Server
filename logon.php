@@ -3,7 +3,7 @@
     
     if(logged_on())
     {
-        header ("Location: /index.php");
+        header ("Location: /Home.php");
     }
 
     if (isset($_POST['Login']))
@@ -25,7 +25,7 @@
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
 
-                header ("Location: index.php");
+                header ("Location: Home.php");
             }
             else
             {
